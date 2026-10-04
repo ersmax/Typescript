@@ -11,6 +11,7 @@ person = {
     age: 32,
 };
 
+// OBJECT TYPE
 // Good practice: the type of variable is defined
 let goodPerson: {
     name: string;
@@ -21,6 +22,7 @@ goodPerson = {
     age: 30,
 }
 
+// array of Object Type
 let goodPeople: {
     name: string;
     age: number;

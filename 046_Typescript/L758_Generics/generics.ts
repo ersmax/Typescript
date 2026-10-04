@@ -9,7 +9,8 @@ function insertAtBeginningNumber(array: number[], value: number) {
    return newArray; 
 }
 function insertAtBeginningGenerics<T>(array: T[], value: T) {
-   
+   const newArray = [value, ...array];
+   return newArray; 
 }
 
 const demoArray = [1, 2, 3];
